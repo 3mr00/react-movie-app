@@ -37,7 +37,7 @@ const Banner = () => {
         background-Image: ${
           movie && movie.backdrop_path.length >= 1
             ? `url("https://image.tmdb.org/t/p/original/${movie.backdrop_path}")`
-            : unavailableLandscape
+            : `url(${unavailableLandscape})`
         }      }
   }
   @media (max-width: 750px) {
@@ -45,9 +45,10 @@ const Banner = () => {
         background-Image: ${
           movie && movie.backdrop_path.length >= 1
             ? `url("https://image.tmdb.org/t/p/original/${movie?.poster_path}")`
-            : unavailableLandscape
+            : `url(${unavailableLandscape})`
         }      }
   }`;
+  console.log(movie && movie);
   return (
     <div className="Banner">
       <style scoped>{movie && css}</style>

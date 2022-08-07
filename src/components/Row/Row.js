@@ -173,9 +173,9 @@ function Row({ title, fetchUrl, isLargeRow, handleFavouritesClick }) {
   return (
     <div>
       {isPending && (
-        <div class="loader_home">
-          <div class="loader__filmstrip"></div>
-          <p class="loader__text">loading</p>
+        <div className="loader_home">
+          <div className="loader__filmstrip"></div>
+          <p className="loader__text">loading</p>
         </div>
       )}
       <div className="row" style={{ margin: "30px" }}>
