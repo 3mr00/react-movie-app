@@ -1,0 +1,73 @@
+@media (max-width: 940px) {
+  .fav_sec {
+    margin-top: 15% !important;
+  }
+}
+@media (max-width: 425px) {
+  .fav_sec {
+    margin-top: 20% !important;
+  }
+  .Remove_btn {
+    display: none !important;
+  }
+}
+.fav_sec {
+  margin-top: 5%;
+}
+.fav__Slider .slick-list {
+  padding: 0px 0px !important;
+}
+
+.fav__Slider .slick-track {
+  margin-left: 0% !important;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #fff !important;
+}
+
+.slick-dots li button:before {
+  color: #fff;
+}
+@media (max-width: 1365px) {
+  .overlay__fav {
+    font-size: 11px !important;
+    width: 78.8% !important;
+  }
+}
+
+@media (max-width: 425px) {
+  .overlay__fav {
+    opacity: 1 !important;
+    width: 33% !important;
+    margin-left: 25% !important;
+    font-size: 20px !important;
+    margin-top: -10% !important;
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+  }
+}
+.overlay__fav {
+  position: relative;
+  background: rgba(0, 0, 0, 0.8);
+  transition: 0.5s ease;
+  opacity: 0;
+  bottom: 0;
+  font-size: 13px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  text-align: center;
+  width: 82%;
+  margin-left: 0%;
+  margin-top: -10.6%;
+}
+
+.image__container:hover .overlay__fav {
+  opacity: 1;
+}
+.No_Movies {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 13%;
+}

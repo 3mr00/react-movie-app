@@ -1,0 +1,188 @@
+/* Banner SECTION */
+@media (max-width: 940px) {
+  .Banner .left-side {
+    width: 100% !important;
+  }
+  .Banner h1 {
+    font-size: 25px !important;
+    text-align: center;
+  }
+  .Banner p {
+    font-size: 2.4vw !important;
+  }
+  .button-section {
+    justify-content: center;
+  }
+  .Banner .watch,
+  .Banner .queue {
+    padding: 5px 15px !important;
+  }
+  .Banner p {
+    text-align: center !important;
+  }
+  .Banner .left-side {
+    padding-left: 0% !important;
+  }
+  .nav-list {
+    margin-left: -2rem !important;
+  }
+}
+@media (max-width: 425px) {
+  .navbar {
+    width: 130% !important;
+  }
+  .nav-list {
+    margin-left: -2rem !important;
+  }
+  .nav-item {
+    padding: 0 0.5rem !important;
+  }
+  .rightNav {
+    margin: 19% !important;
+  }
+  .navbar {
+    padding: 0 0.2rem !important;
+    font-size: 10px !important;
+  }
+  .Banner {
+    height: 530px !important;
+  }
+  .Banner p {
+    text-align: center !important;
+  }
+  .Banner .left-side {
+    padding-left: 0% !important;
+  }
+  nav .searchbar .icon i {
+    margin-top: 18% !important;
+    left: -90% !important;
+  }
+
+  nav .auth li {
+    margin: 0% -118% !important;
+  }
+  .slash {
+    margin-left: -2px !important;
+    margin-top: -0.5% !important;
+    position: absolute !important;
+    font-size: 17px !important;
+  }
+}
+
+.Banner {
+  width: 100%;
+  min-height: 250px;
+  display: flex;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 690px;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+
+.Banner .image-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background: rgb(20, 20, 20);
+  background: linear-gradient(
+    0deg,
+    rgba(20, 20, 20, 1) 0%,
+    rgba(255, 255, 255, 0) 36%
+  );
+}
+
+.Banner .left-side {
+  width: 36%;
+  height: 80%;
+  padding-left: 6%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Banner h1 {
+  margin: 0px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+  font-size: 60px;
+  color: white;
+  text-shadow: 5px 5px 10px black;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 5px;
+}
+
+.Banner p {
+  margin: 0px;
+  font-family: "Montserrat", sans-serif;
+  padding: 25px 0px;
+  color: #fff;
+  font-weight: 400;
+  line-height: normal;
+  font-size: 1.4vw;
+  text-shadow: 2px 2px 4px rgb(0 0 0 / 45%);
+  width: 100%;
+}
+
+.Banner h3 {
+  display: flex;
+  align-items: center;
+}
+
+.button-section {
+  width: 100%;
+  display: flex;
+  font-family: "Roboto", sans-serif;
+}
+
+.button-section svg {
+  width: 25px;
+  height: 25px;
+  min-width: 25px;
+  padding-left: 10px;
+}
+
+.Banner .watch,
+.Banner .queue {
+  padding: 10px 25px;
+  border-radius: 8px;
+  transition: 500ms;
+}
+
+.watch {
+  color: #000;
+  display: flex;
+  background-color: #fff;
+}
+
+.queue {
+  display: flex;
+  margin-left: 30px;
+  background-color: rgba(109, 109, 110, 0.7);
+  color: white;
+}
+
+.watch:hover {
+  background-color: rgba(255, 255, 255, 0.75);
+  cursor: pointer;
+}
+
+.queue:hover {
+  background-color: rgba(109, 109, 110, 0.4);
+  cursor: pointer;
+}
+
+h6 {
+  margin-left: 4px;
+  margin-bottom: -25px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+  font-size: 25px;
+  color: white;
+  text-shadow: 5px 5px 10px black;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 21px;
+}

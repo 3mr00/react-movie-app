@@ -1,0 +1,140 @@
+.navbar {
+  display: flex;
+  width: 100%;
+  height: 60px;
+  padding: 0 1.5rem;
+  align-items: center;
+  background: transparent;
+  position: fixed;
+  top: 0;
+  transition: all 255ms ease-in-out;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  z-index: 444;
+  font-size: 14px;
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+}
+
+a {
+  text-decoration: none;
+  color: #e5e5e5;
+  transition: 0.4s;
+}
+.navbar a:hover {
+  color: #b3b3b3;
+}
+/* Styles pour les liens survolés ou sélectionnés au clavier*/
+
+.active_Nav {
+  font-weight: 700;
+  color: #fff;
+}
+.active_Nav:hover {
+  font-weight: 700 !important;
+  color: #fff !important;
+  cursor: default;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-grow: 1;
+}
+.nav-list {
+  margin-left: 2rem;
+  display: flex;
+  list-style: none;
+}
+.nav-item {
+  padding: 0 1rem;
+}
+.nav-item :nth-last-child(1) {
+  padding-right: unset;
+}
+
+/* Setting the hover colour on the list items*/
+
+nav .nav-items li a:hover {
+  color: #19191b;
+}
+
+nav .searchbar {
+  position: relative;
+}
+
+/* Styling the search box where the 
+      input would be given */
+nav .searchbar input[type="text"] {
+  border: 0;
+  padding: 0;
+  width: 0px;
+  height: 35px;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+
+/* Styling the search bar icon */
+nav .searchbar .icon {
+  display: flex;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 35px;
+  height: 100%;
+  background: none;
+  border-radius: 3px;
+  color: #fff;
+  transition: all 0.5s 0.3s ease;
+}
+
+nav .searchbar .icon i {
+  position: absolute;
+  top: 50%;
+  left: -80%;
+  margin-top: 40%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  font-size: 1.5em;
+}
+
+nav .searchbar .icon.active {
+  background: #062333;
+  transition: all 0.3s ease;
+}
+
+nav .searchbar input[type="text"].active {
+  width: 250px;
+  padding: 0 10px;
+  transition: all 0.5s 0.2s ease;
+  margin-left: -1%;
+}
+
+nav .auth li {
+  list-style: none;
+  margin: 8% -65%;
+}
+
+/* Changing the colour of the login 
+      icon when hovered over*/
+
+.fa-user-circle {
+  transition: 0.4s;
+}
+.fa-user-circle:hover {
+  color: #b3b3b3 !important;
+}
+
+.rightNav {
+  display: flex;
+  margin: 2%;
+}
+.slash {
+  margin-left: 20px;
+  position: absolute;
+  font-size: 23px;
+}
+.navbar-brand {
+  font-family: "League Spartan", sans-serif;
+}
